@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://picsum.photos/600/600?random=0);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+}
+.banner-text{
+    width: 50vw;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+}
+.banner-text h1, .banner-text h2, .count{
+    margin-bottom: 30px;
+}
+.fixed-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+.fixed-text:hover{
+    color: #ff6347; 
+    font-size: 1.5rem;
+  }
+.experience{
+  
+}
+.experience:hover{
+    color: #ff6347;   
+    transition: 0.9s ease-in-out;
+    font-size: 1rem;
+  }
+.running-text {
+    font-size: 2rem;
+    text-wrap: nowrap;
+    color: rgb(175, 53, 175);
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    animation: typing 5s steps(20, end), blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+      height: 1.6em;
+    }
+    50% {
+      border-color: rgb(175, 53, 175);
+    }
+  }
+.count{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+}
+.count h3{
+    font-size: 2em;
+}
+
+#btn{
+    margin-top: 100px;
+    padding: 8px 24px;
+    background-color: transparent;
+    color: white;
+    border: 1.2px solid white;
+    cursor: pointer;
+}
+#btn:hover{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    transition: 0.9s ease-in-out;
+}
+
+
+
+
+
